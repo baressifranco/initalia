@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary justify-content-end "  >
+    <div class="container-fluid" id="menu">
+    	<a class="navbar-brand" href="index.html">
+      	<img src="imagenes/logo.png" alt="Logo" width="150" height="30" class="d-inline-block align-text-top">         
+    	</a>
+        <ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link active text-light" aria-current="page" href="nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="servicios.html">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="contactenos.html">Contactenos</a>
+					</li>						
+				</ul>
+			<a href="cotiza.html"><button class="cotizar_boton">Cotizar</button></a>
+    </div>
+  </nav>
+	<main class="container-cotiza">	
+		<section class="form-servicio">
+				<h1>Cotiza tu Proximo Departamento</h1>
+				<p>Llena el siguiente formulario y nos comunicaremos contigo para brindarte toda nuestra asesoría.</p>
+				<input class="box-servicio" type="text" name="nombres" id="nombres" placeholder="Nombres y apellidos">
+				<input class="box-servicio" type="email" name="correo" id="correo" placeholder="Correo electrónico">
+        <input class="box-servicio" type="tel" name="telefono" id="telefono" placeholder="Telefono/Celular">
+				<input class="box-servicio" type="tel" name="DNI" id="DNI" placeholder="DNI">
+				<input class="box-servicio" type="" name="proyecto" id="proyecto" placeholder="Proyecto">
+				<input class="box-servicio" type="text" name="" id="" placeholder="Como nos encontraste">
+        <input class="box-mensaje" type="text" name="Mensaje" id="Mensaje" placeholder="Mensaje">
+				<div class="mb-3 form-check">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+					<label class="form-check-label" for="exampleCheck1">Declaro que he leído la <a href="#">Política de tratamiento de datos</a></label>
+				</div>				
+				<input class="buton" type="submit" value="Enviar">
+		</section>
+	</main>
+	<footer>
+		<div class="footer1">
+			<p>Contactenos: <a href="#">Ventas@initalia.pe</a></p>
+			<p>Línea: <a href="#">932 113 513</a> </p>
+		<div class="divfooter">
+			<a href="#"><img src="imagenes/facebook.png" alt=""></a>
+			<a href="#"><img src="imagenes/youtube.jpg" alt=""></a>
+			<a href="#"><img src="imagenes/twiter.png" alt=""></a>
+		</div>
+		</div>
+		<hr>
+		<div class="footer2">
+			<h6>Nosotros</h6>
+			<ul>
+				<h6>Legales</h6>
+				<li>Terminos y condiciones</li>
+				<li>Políticas de Tratamiento y Proteccios de Datos personales</li>
+			</ul>
+			<h6>Libro de reclamaciones</h6>
+		</div>
+		</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

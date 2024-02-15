@@ -1,0 +1,222 @@
+/* ---------------------------------------------
+   ENCABEZADO
+--------------------------------------------- */
+#menu{
+    background-color: #162623;
+}
+.cotizar_boton {  /*Estilos del boton del nav*/
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+		margin: 15px;
+  }
+.img-edi {   /*estilos de imagenes del imdex*/
+    width: 80%;
+    height: 350px;		
+}
+.container-index {
+	padding: 0px 15%;
+  display: flex;
+}
+.main-index { /*Estilo a la seccion de carrusel*/
+	padding: 50px 150px;
+}
+.recomendaciones_section {/*estilos de los cards del index */
+    text-align: center;
+    padding: 0px;
+		background-image: url("imagenes/banner_section.png");
+		margin: 50px 0px 10px 0px;
+		height: 387px;
+		width: 100%;
+  }
+.recomendaciones_section h2 {
+    color: orange;
+		font-size: 30px;		
+  }
+.section-box {
+	display: flex;
+	margin: 40px 10% 80px 10%;
+	}
+.section-index {
+	height: 230px;
+	width: 350px;
+	background-color: white;
+	margin: 15px 10px 15px 10px;
+	border: solid 0.1px black;
+	margin: 30px;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 10px 5px 3px black;
+	}
+.section-index h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.section-index h2{
+	color: orange;
+	margin-left: 10%;
+	font-size: 15px;
+}
+.bannerfooter { /*estilo del banner antes del footer*/
+	height: 150px;
+	width: 100%;
+	position: relative;
+  display: inline-block;
+	background-color: rgb(252, 247, 242);
+}
+.div1 {
+	position:absolute;
+	top: 40%;
+	left: 20%;
+	color: orange;
+}
+.div2 {
+	position:absolute;
+	top: 40%;
+	left: 60%;
+	display: flex;
+	color: orange;
+}
+  footer {/*estilos del footer*/
+    background-color: #ffffff;
+    color: #020202;
+  }
+.footer1 {
+	margin: 15px 0 10px 70px;
+	display: flex;
+}
+.footer1 p {
+	margin-left: 100px;
+}
+.footer1 img {
+	width: 35px;
+	height: 35px;
+	margin: 7px;
+}
+.divfooter {
+	margin-left: 350px;
+} 
+footer a {  
+  color: orange;
+  }
+.footer2 {
+	display: flex;
+	margin-left: 10%;
+	justify-content: space-evenly;
+}
+.footer2 ul li {
+	list-style: none;
+}
+/* ---------------------------------------------
+   CONTENIDO DE NOSOTROS
+--------------------------------------------- */
+.container-nosotros{/*Estilos del container de nosotros*/
+  text-align: center;  
+  }
+.container-nosotros p{
+  padding: 25px;
+  }
+.container-nosotros h2{
+  color: orange;
+  }
+.container-img{
+  display: flex;
+  }
+.img-nosotros{
+  width: 30%;
+  }
+.cards {/*estilos de los cards de la pagina de servicios*/
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  padding: 25px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 3px 2px 1px black;
+}
+.cards:hover {
+  transform: scale(1.05);
+}
+  
+  .form-servicio{/*Estilos del formulario de cotiza*/
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 30px 10px;
+    border-radius: 4px;
+    border: solid 1px black;
+  }
+  .form-servicio h1{
+    color: orange;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .form-servicio p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .box-servicio{/*estilos de los contenedores del formulario cotiza*/
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+  }
+  .box-mensaje{/*estilos de los contenedores del formulario cotiza*/
+    border-radius: 10px;
+    width: 85%;
+    height: 70px;
+    margin: 5px;
+  }
+  .form-contactenos{/*estilosdel formulario de la pagina de contactenos*/
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 30px 10px;
+    border-radius: 4px;
+    border: solid 1px black;
+  }
+  .form-contactenos h1{
+    color: orange;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .form-contactenos p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .box-form{/*estilos de los contenedores del formulario contactenos*/
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+  }
+  .buton{/*Estilo del boton del formulario*/
+    width: 80%;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+  }
+  .container-contactenos{/*Estilo del fondo de contactenos*/
+    display: flex;
+		background-image: url(imagenes/fondoformulario.png);
+		background-color: rgb(252, 247, 242);
+  }
+  .aside-contactenos{
+    margin: 20px 150px 10px 100px;
+  }
+  .container-cotiza{/*Estilo del fondo de cotiza*/
+    display: flex;
+    justify-content: center;
+		background-image: url(imagenes/fondoformulario.png);
+		background-color: rgb(252, 247, 242);
+  }
+  
